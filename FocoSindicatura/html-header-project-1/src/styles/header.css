@@ -1,14 +1,14 @@
 header {
     background: linear-gradient(120deg, #232526 0%, #414345 100%);
     color: #fff;
-    padding: 18px 0 12px 0; /* Reduziu o padding para 2/3 do valor original */
+    padding: 18px 0 12px 0;
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25), 0 1.5px 0 #98968d inset;
     position: relative;
     z-index: 1;
     width: 100%;
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 24px;
-    /* Efeito de vidro */
+ 
     backdrop-filter: blur(4px) saturate(120%);
     -webkit-backdrop-filter: blur(4px) saturate(120%);
 }
@@ -19,9 +19,9 @@ header {
     justify-content: flex-start;
     width: 100%;
     max-width: none;
-    margin: 0 0 9px 0; /* margin-bottom */
-    gap: 12px;         /* gap */
-    padding-left: 26px; /* padding-left */
+    margin: 0 0 9px 0; 
+    gap: 12px;  
+    padding-left: 26px;
     box-sizing: border-box;
     filter: drop-shadow(0 2px 8px rgba(0,0,0,0.10));
 }
@@ -43,7 +43,7 @@ header {
 }
 
 header h1 {
-    font-size: 1.4rem; /* tamanho da fonte */
+    font-size: 1.4rem;
     margin: 0;
     background: linear-gradient(90deg, #49494a 30%, #434547 100%);
     -webkit-background-clip: text;
@@ -52,4 +52,5 @@ header h1 {
     font-weight: 800;
     letter-spacing: 1.5px;
     text-shadow: 0 2px 8px #00000022, 0 1px 0 #ffffff;
+
 }
