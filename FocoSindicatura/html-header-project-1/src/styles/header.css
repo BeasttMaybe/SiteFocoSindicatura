@@ -1,0 +1,55 @@
+header {
+    background: linear-gradient(120deg, #232526 0%, #414345 100%);
+    color: #fff;
+    padding: 18px 0 12px 0; /* Reduziu o padding para 2/3 do valor original */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25), 0 1.5px 0 #98968d inset;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    /* Efeito de vidro */
+    backdrop-filter: blur(4px) saturate(120%);
+    -webkit-backdrop-filter: blur(4px) saturate(120%);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: none;
+    margin: 0 0 9px 0; /* margin-bottom */
+    gap: 12px;         /* gap */
+    padding-left: 26px; /* padding-left */
+    box-sizing: border-box;
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.10));
+}
+
+.logo {
+    height: 36px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #fff 60%, #e0e7ef 100%);
+    padding: 4px;
+    box-shadow: 0 4px 16px rgba(96, 91, 91, 0.18), 0 0 0 4px #ffffff33;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.logo:hover,
+.logo:focus {
+    transform: scale(1.08) rotate(-3deg);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.22), 0 0 0 6px #3a3a3a55;
+}
+
+header h1 {
+    font-size: 1.4rem; /* tamanho da fonte */
+    margin: 0;
+    background: linear-gradient(90deg, #49494a 30%, #434547 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-shadow: 0 2px 8px #00000022, 0 1px 0 #ffffff;
+}
