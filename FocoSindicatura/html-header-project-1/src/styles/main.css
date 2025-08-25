@@ -7,15 +7,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* Efeito sutil de sombra para dar profundidade */
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10) inset;
-    /* Suaviza a transição de cor ao rolar */
     transition: background 0.5s;
-    /* Melhora a renderização de fontes */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-/* ...existing code... */
 
 .body-bg-partial {
     position: absolute;
@@ -34,10 +30,6 @@ body {
     box-sizing: border-box;
 }
 
-
-/* ...existing code... */
-
-/* Google Fonts para uma fonte mais bonita */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
 
 body, h1, h2, nav, label, input, button, section, footer {
@@ -51,7 +43,7 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 21px; /* 3/4 do gap padrão de 28px */
+    gap: 21px;
     filter: drop-shadow(0 2px 8px rgb(58, 58, 58));
 }
 
@@ -59,13 +51,13 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.86rem; /* 3/4 de 1.15rem */
-    padding: 7.5px 16.5px; /* 3/4 de 10px 22px */
-    border-radius: 6px;    /* 3/4 de 8px */
+    font-size: 0.86rem; 
+    padding: 7.5px 16.5px; 
+    border-radius: 6px;  
     background: linear-gradient(120deg, #232526 60%, #2c2b2b 100%);
-    box-shadow: 0 1.5px 6px rgba(255,204,0,0.08); /* 3/4 de 0 2px 8px */
+    box-shadow: 0 1.5px 6px rgba(255,204,0,0.08); 
     transition: color 0.2s, background 0.2s, transform 0.2s, box-shadow 0.2s;
-    border: 1.1px solid #ffffff86; /* 3/4 de 1.5px */
+    border: 1.1px solid #ffffff86; 
     backdrop-filter: blur(2px);
 }
 
@@ -133,7 +125,6 @@ label {
     color: #ffffff;
 }
 
-/* Remove estilos antigos do main e section */
 main {
     max-width: none;
     margin: 0;
@@ -144,7 +135,6 @@ main {
 }
 
 \FocoSindicatura\html-header-project-1\src\styles\style.css */
-/* ...existing code... */
 
 .video-container {
     display: flex;
@@ -160,8 +150,6 @@ main {
     border-radius: 16px;
     box-shadow: 0 4px 32px rgba(0,0,0,0.18);
 }
-
-/* ...existing code... */
 
 section {
     display: none;
