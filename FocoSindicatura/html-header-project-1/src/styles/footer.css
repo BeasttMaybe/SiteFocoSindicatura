@@ -79,3 +79,25 @@ footer a:focus {
     transform: scale(1.05);
 }
 
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.80em;
+    transition: color 0.2s, background 0.2s, transform 0.2s, box-shadow 0.2s;
+    border-radius: 6px;
+    padding: 2px 8px;
+    background: linear-gradient(120deg, #232526 60%, #2c2b2b 100%);
+    border: 1.1px solid #ffffff86;
+    box-shadow: 0 1.5px 6px rgba(255,204,0,0.08);
+    backdrop-filter: blur(2px);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: #d3d6d7;
+    background: linear-gradient(120deg, #292929 60%, #fffbe6 100%);
+    transform: scale(1.12) translateY(-2px);
+    box-shadow: 0 4.5px 18px #ffffff33, 0 1.1px 0 #232526 inset;
+    border: 1.1px solid #565656cc;
+}
